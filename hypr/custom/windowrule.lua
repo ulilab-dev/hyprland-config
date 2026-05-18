@@ -61,3 +61,10 @@ hl.window_rule({
     float = true,
     size = "900 600",
 })
+
+hl.window_rule({
+    name  = "baobab",
+    match = { class = "org.gnome.baobab" },
+    float = true,
+    size = "900 600",
+})
