@@ -48,23 +48,6 @@ hl.window_rule({
     float = true,
 })
 
-hl.window_rule({
-    name  = "volume",
-    match = { class = "org.pulseaudio.pavucontrol" },
-    float = true,
-    size = "900 600",
-})
-
-hl.window_rule({
-    name  = "localsend",
-    match = { class = "localsend" },
-    float = true,
-    size = "900 600",
-})
-
-hl.window_rule({
-    name  = "baobab",
-    match = { class = "org.gnome.baobab" },
-    float = true,
-    size = "900 600",
-})
+hl.window_rule({ match = { class = "org.pulseaudio.pavucontrol" }, float = true, size = "900 600", })
+hl.window_rule({ match = { class = "localsend" }, float = true, size = "900 600", })
+hl.window_rule({ match = { class = "org.gnome.baobab" }, float = true, size = "900 600", })
