@@ -47,3 +47,17 @@ hl.window_rule({
     move  = "20 monitor_h-120",
     float = true,
 })
+
+hl.window_rule({
+    name  = "volume",
+    match = { class = "org.pulseaudio.pavucontrol" },
+    float = true,
+    size = "900 600",
+})
+
+hl.window_rule({
+    name  = "localsend",
+    match = { class = "localsend" },
+    float = true,
+    size = "900 600",
+})
