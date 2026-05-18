@@ -93,7 +93,6 @@
     },
 
     "mpris": {
-    "player": "spotify",
     "dynamic-order": ["artist", "title"],
     "format": "{player_icon} {dynamic}",
     "format-paused": "{status_icon} <i>{dynamic}</i>",
@@ -101,8 +100,10 @@
       "paused": "",
     },
     "player-icons": {
-      "default": "",
+	      "default": "",
     },
+    "max-length": 30,
+    "ellipsis": "..."
   },
 
     "tray": {
