@@ -2,7 +2,7 @@
 hyprland.conf
 ### must install
 ```
-rofi swaybg hyprlock
+rofi swaybg hyprlock waybar wlogout
 ```
 
 ### don't forget use this on pacman.conf
