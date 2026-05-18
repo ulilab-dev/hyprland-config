@@ -10,11 +10,11 @@
         "hyprland/workspaces",
         "hyprland/mode",
         "hyprland/scratchpad",
-        "custom/media"
+        "custom/media",
+        "mpris"
     ],
     "modules-center": [
-        "hyprland/window",
-        "mpris"
+        "hyprland/window"
     ],
     "modules-right": [
         "pulseaudio",
