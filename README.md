@@ -1,11 +1,9 @@
 # my-hyprland-conf
 hyprland.conf
-
-### install hyprlock & wlogout
-
-### install hypridle 
-
-### install rofi 
+### must install
+```
+rofi swaybg hyprlock
+```
 
 ### don't forget use this on pacman.conf
 ```
