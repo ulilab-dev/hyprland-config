@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+7df397abb506e464476dc24e57ac0142 proto_gen/wlr-layer-shell-unstable-v1-client-protocol.h
+ac1ab34bca04ab55ca7c1f245cfdc8a0 proto_gen/wlr-layer-shell-unstable-v1-protocol.c

@@ -1,0 +1,7 @@
+/home/ez/Downloads/hyprbar/build/CMakeFiles/hyprbar.dir
+/home/ez/Downloads/hyprbar/build/CMakeFiles/edit_cache.dir
+/home/ez/Downloads/hyprbar/build/CMakeFiles/rebuild_cache.dir
+/home/ez/Downloads/hyprbar/build/CMakeFiles/list_install_components.dir
+/home/ez/Downloads/hyprbar/build/CMakeFiles/install.dir
+/home/ez/Downloads/hyprbar/build/CMakeFiles/install/local.dir
+/home/ez/Downloads/hyprbar/build/CMakeFiles/install/strip.dir

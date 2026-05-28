@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/ez/Downloads/hyprbar/build",
+  "command": "/usr/bin/c++  -I/home/ez/Downloads/hyprbar/src -I/home/ez/Downloads/hyprbar/build/proto_gen -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -O2 -pipe -o CMakeFiles/hyprbar.dir/src/main.cpp.o -c /home/ez/Downloads/hyprbar/src/main.cpp",
+  "file": "/home/ez/Downloads/hyprbar/src/main.cpp",
+  "output": "CMakeFiles/hyprbar.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ez/Downloads/hyprbar/build",
+  "command": "/usr/bin/c++  -I/home/ez/Downloads/hyprbar/src -I/home/ez/Downloads/hyprbar/build/proto_gen -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -O2 -pipe -o CMakeFiles/hyprbar.dir/src/Bar.cpp.o -c /home/ez/Downloads/hyprbar/src/Bar.cpp",
+  "file": "/home/ez/Downloads/hyprbar/src/Bar.cpp",
+  "output": "CMakeFiles/hyprbar.dir/src/Bar.cpp.o"
+},
+{
+  "directory": "/home/ez/Downloads/hyprbar/build",
+  "command": "/usr/bin/c++  -I/home/ez/Downloads/hyprbar/src -I/home/ez/Downloads/hyprbar/build/proto_gen -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -O2 -pipe -o CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o -c /home/ez/Downloads/hyprbar/src/HyprIPC.cpp",
+  "file": "/home/ez/Downloads/hyprbar/src/HyprIPC.cpp",
+  "output": "CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o"
+},
+{
+  "directory": "/home/ez/Downloads/hyprbar/build",
+  "command": "/usr/bin/c++  -I/home/ez/Downloads/hyprbar/src -I/home/ez/Downloads/hyprbar/build/proto_gen -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -O2 -pipe -o CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o -c /home/ez/Downloads/hyprbar/src/modules/Workspaces.cpp",
+  "file": "/home/ez/Downloads/hyprbar/src/modules/Workspaces.cpp",
+  "output": "CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o"
+},
+{
+  "directory": "/home/ez/Downloads/hyprbar/build",
+  "command": "/usr/bin/cc  -I/home/ez/Downloads/hyprbar/src -I/home/ez/Downloads/hyprbar/build/proto_gen -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -O3 -DNDEBUG -Wall -Wextra -O2 -pipe -o CMakeFiles/hyprbar.dir/src/xdg_stub.c.o -c /home/ez/Downloads/hyprbar/src/xdg_stub.c",
+  "file": "/home/ez/Downloads/hyprbar/src/xdg_stub.c",
+  "output": "CMakeFiles/hyprbar.dir/src/xdg_stub.c.o"
+},
+{
+  "directory": "/home/ez/Downloads/hyprbar/build",
+  "command": "/usr/bin/cc  -I/home/ez/Downloads/hyprbar/src -I/home/ez/Downloads/hyprbar/build/proto_gen -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -O3 -DNDEBUG -Wall -Wextra -O2 -pipe -o CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o -c /home/ez/Downloads/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c",
+  "file": "/home/ez/Downloads/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c",
+  "output": "CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o"
+}
+]
