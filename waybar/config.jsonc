@@ -55,7 +55,6 @@
         "format": "{}",
         "max-length": 40,
         "rewrite": {
-//            "(.*) - Brave": "🌎 $1",
             "(.*) - Kitty": "  $1",
             "(.*) - Steam": "  $1"
         }
