@@ -64,10 +64,10 @@ Or just copy `build/hyprbar` anywhere on your `$PATH`.
 hyprbar &
 ```
 
-Add to your `~/.config/hypr/hyprland.conf`:
+Add to your `~/.config/hypr/hyprland.lua`:
 
 ```ini
-exec-once = hyprbar
+hl.exec_cmd("hyprbar")
 ```
 
 ## Configuration
