@@ -17,6 +17,7 @@ window#waybar {
 #network,
 #pulseaudio,
 #mpris,
+#power-profile-daemon,
 #battery,
 #custom-power,
 #custom-launcher {
