@@ -54,6 +54,7 @@ window#waybar {
 }
 
 #mpris {
+    color: #ffffff;
     padding: 0 10px;
 }
 #mpris.paused {
