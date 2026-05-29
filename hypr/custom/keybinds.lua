@@ -7,10 +7,6 @@ local terminal    = "kitty"
 local fileManager = "dolphin"
 local menu        = "rofi -show drun"
 
--------------------
----- Noctailia ----
--------------------
-
 
 ---------------------
 ---- KEYBINDINGS ----
