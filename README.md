@@ -1,8 +1,9 @@
 # my-hyprland-conf
 hyprland.conf
+
 ### must install
 ```
-rofi swaybg hyprlock waybar wlogout playerctl fish kitty polkit-gnome
+rofi swaybg hyprlock waybar wlogout playerctl fish kitty polkit-gnome starship
 ```
 ### Font 
 
