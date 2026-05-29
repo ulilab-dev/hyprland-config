@@ -10,7 +10,6 @@ window#waybar {
     background: transparent;
 }
 
-/* Modul bergaya "Pil" */
 #workspaces,
 #window,
 #clock,
@@ -21,15 +20,14 @@ window#waybar {
 #battery,
 #custom-power,
 #custom-launcher {
-    background: rgba(30, 30, 46, 0.85); /* Background gelap transparan */
-    color: #cdd6f4; /* Teks cerah */
+    background: rgba(30, 30, 46, 0.85); 
+    color: #cdd6f4; 
     border-radius: 12px;
     padding: 0 12px;
     margin: 4px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
 
-/* Launcher Logo Arch */
 #custom-launcher {                     
     color: #ffffff;
     font-size: 18px;
@@ -37,7 +35,6 @@ window#waybar {
     padding-left: 15px;
 }
 
-/* Workspaces Hyprland */
 #workspaces button {
     color: #9e9b99;
     padding: 0 7px;
@@ -46,8 +43,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-    color: #ffffff; /* Warna merah muda / merah untuk aktif */
-/*    background: rgba(255, 255, 255, 0.1); */
+    color: #ffffff; 
 }
 
 #workspaces button:hover {
@@ -63,17 +59,14 @@ window#waybar {
     color: #a0a0a0;
 }
 
-/* Khusus Teks Window */
 #window {
     color: #f9e2af;
 }
 
-/* Jam */
 #clock {
     color: #ffffff;
 }
 
-/* Modul Status Kanan */
 #network {
     color: #ffffff;
 }
@@ -99,14 +92,12 @@ window#waybar {
     animation-direction: alternate;
 }
 
-/* Tombol Power */
 #custom-power {
     color: #ffffff;
     padding-right: 15px;
     padding-left: 15px;
 }
 
-/* Animasi untuk Baterai Kritis */
 @keyframes blink {
     to {
         background-color: #f38ba8;
