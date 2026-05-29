@@ -2,7 +2,7 @@
 hyprland.conf
 ### must install
 ```
-rofi swaybg hyprlock waybar wlogout
+rofi swaybg hyprlock waybar wlogout playerctl fish kitty polkit-gnome
 ```
 
 ### don't forget use this on pacman.conf
