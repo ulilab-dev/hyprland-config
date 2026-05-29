@@ -12,7 +12,7 @@ button {
 	border-color: black;
 	text-decoration-color: #FFFFFF;
 	color: #FFFFFF;
-	background-color: #1E1E1E;
+	background-color: rgba(30, 30, 46, 0.85);
 	border-style: solid;
 	border-width: 0px;
 	padding: 35px 60px;
