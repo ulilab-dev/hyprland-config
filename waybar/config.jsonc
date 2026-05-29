@@ -25,6 +25,7 @@
     "modules-right": [
         "pulseaudio",
         "network",
+        "power-profiles-daemon",
         "tray",
         "battery",
         "clock",
@@ -86,6 +87,18 @@
                 "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
             }
         }
+    },
+
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "󰗑",
+        "power-saver": ""
+      }
     },
 
     "tray": {
