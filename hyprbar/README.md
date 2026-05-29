@@ -1,6 +1,6 @@
 # hyprbar
 
-A minimal, modern status bar for [Hyprland](https://hyprland.org), written in C++20.
+A minimal, modern status bar for [Hyprland](https://hyprland.org), written in C++.
 
 ```
 ┌───────────────────────────────────────────────────────────────────────────────────────────────┐
