@@ -27,7 +27,7 @@ button:hover {
 	color: #11111b;
 	background-color: #89b4fa;
 	border-color: #89b4fa;
-	background-size: 30%; /* Icon membesar sedikit */
+	background-size: 30%; 
 	box-shadow: 0 0 20px rgba(137, 180, 250, 0.6);
 	outline: none;
 }
