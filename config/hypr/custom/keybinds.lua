@@ -13,7 +13,7 @@ local menu        = "rofi -show drun"
 ---------------------
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
-local sMod = "SUPER+SHIFT"
+local superMod = "SUPER+SHIFT"
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind("CTRL+ALT+T", hl.dsp.exec_cmd(terminal))
@@ -25,7 +25,7 @@ hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
-hl.bind(sMod .. " + W", hl.dsp.exec_cmd("~/.config/waybar/start.sh"))
+hl.bind(superMod .. " + W", hl.dsp.exec_cmd("~/.config/waybar/start.sh"))
 hl.bind("SUPER+W", hl.dsp.exec_cmd("~/.config/hypr/wallpaper-pick.sh"))
 
 -- Move focus with mainMod + arrow keys
