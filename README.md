@@ -3,7 +3,7 @@ hyprland.conf
 
 ### must install
 ```
-rofi swaybg hyprlock waybar wlogout playerctl fish kitty polkit-gnome starship
+rofi swaybg hyprlock waybar wlogout playerctl fish kitty polkit-gnome starship hyprshot
 
 #MediaPlayer
 
