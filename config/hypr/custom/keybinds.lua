@@ -25,6 +25,7 @@ hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
+hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m output -o ~/Pictures/screenshot"))
 hl.bind(superMod .. " + W", hl.dsp.exec_cmd("~/.config/waybar/start.sh"))
 hl.bind("SUPER+W", hl.dsp.exec_cmd("~/.config/hypr/wallpaper-pick.sh"))
 
