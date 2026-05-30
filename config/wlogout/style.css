@@ -19,7 +19,7 @@ button {
 	background-position: center;
 	background-size: 25%;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	transition: all 0.3s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 button:focus,
