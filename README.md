@@ -4,6 +4,9 @@ hyprland.conf
 ### must install
 ```
 rofi swaybg hyprlock waybar wlogout playerctl fish kitty polkit-gnome starship
+
+# MediaPlayer
+celluloid
 ```
 ### Font 
 
