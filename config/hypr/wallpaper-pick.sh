@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-wallpaper_folder=$HOME/.local/share/wallpapers/
+wallpaper_folder=$HOME/.config/hypr/wallpapers/
 wallpaper_location="$(ls "$wallpaper_folder" | rofi -dmenu -hover-select -me-select-entry '' -me-accept-entry MousePrimary)"
 
 if [[ -d $wallpaper_folder/$wallpaper_location ]]; then
