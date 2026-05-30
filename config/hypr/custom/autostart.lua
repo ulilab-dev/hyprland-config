@@ -7,7 +7,8 @@
 -- Autostart necessary processes (like notifications daemons, status bars, etc.)
 -- Or execute your favorite apps at launch like this:
 
- hl.on("hyprland.start", function () 
+ hl.on("hyprland.start", function ()
+     hl.exec_cmd("gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'")
      hl.exec_cmd("gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Ice'")
      hl.exec_cmd("gsettings set org.gnome.desktop.interface cursor-size 24")
      hl.exec_cmd("nm-applet")
