@@ -5,7 +5,8 @@ hyprland.conf
 ```
 rofi swaybg hyprlock waybar wlogout playerctl fish kitty polkit-gnome starship
 
-# MediaPlayer
+#MediaPlayer
+
 celluloid
 ```
 ### Font 
