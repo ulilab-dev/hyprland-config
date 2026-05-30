@@ -9,6 +9,7 @@
 
  hl.on("hyprland.start", function () 
      hl.exec_cmd("nm-applet")
+     hl.exec_cmd("hyprctl setcursor Bibata-Modern-Ice 24")
      hl.exec_cmd("waybar")
      hl.exec_cmd("swaybg -m fill -i ~/.config/hypr/wallpapers/p3.jpg")
      hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
