@@ -13,6 +13,6 @@
      hl.exec_cmd("gsettings set org.gnome.desktop.interface cursor-size 24")
      hl.exec_cmd("nm-applet")
      hl.exec_cmd("waybar")
-     hl.exec_cmd("swaybg -m fill -i ~/.config/hypr/wallpapers/p3.jpg")
+     hl.exec_cmd("swaybg -m fill -i ~/.config/hypr/wallpapers/p2.png")
      hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
  end)
