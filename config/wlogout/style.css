@@ -37,25 +37,25 @@ button:hover {
  * ----------------------------------------------------- */
 
 #lock {
-background-image: image(url("/home/ez/.config/wlogout/icons/lock.png"), url("/home/ez/.config/wlogout/icons/lock.png"));
+background-image: image(url("/home/ez/.config/wlogout/icons/lock.png"));
 }
 
 #logout {
-background-image: image(url("/home/ez/.config/wlogout/icons/logout.png"), url("/home/ez/.config/wlogout/icons/logout.png"));
+background-image: image(url("/home/ez/.config/wlogout/icons/logout.png"));
 }
 
 #suspend {
-background-image: image(url("/home/ez/.config/wlogout/icons/suspend.png"), url("/home/ez/.config/wlogout/icons/suspend.png"));
+background-image: image(url("/home/ez/.config/wlogout/icons/suspend.png"));
 }
 
 #hibernate {
-background-image: image(url("/home/ez/.config/wlogout/icons/hibernate.png"), url("/home/ez/.config/wlogout/icons/hibernate.png"));
+background-image: image(url("/home/ez/.config/wlogout/icons/hibernate.png"));
 }
 
 #shutdown {
-background-image: image(url("/home/ez/.config/wlogout/icons/shutdown.png"), url("/home/ez/.config/wlogout/icons/shutdown.png"));
+background-image: image(url("/home/ez/.config/wlogout/icons/shutdown.png"));
 }
 
 #reboot {
-background-image: image(url("/home/ez/.config/wlogout/icons/reboot.png"), url("/home/ez/.config/wlogout/icons/reboot.png"));
+background-image: image(url("/home/ez/.config/wlogout/icons/reboot.png"));
 }
