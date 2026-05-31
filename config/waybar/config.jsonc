@@ -14,7 +14,7 @@
 
     "modules-left": [
         "custom/launcher",
-        "hyprland/workspaces",
+        "ext/workspaces",
         "mpris"
     ],
     
@@ -38,7 +38,7 @@
         "tooltip": false
     },
 
-    "hyprland/workspaces": {
+    "ext/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate",
