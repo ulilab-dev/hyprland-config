@@ -127,16 +127,6 @@
           "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
         },
         {
-            "type": "player",
-            "key": "│ ├󰥠",
-            "keyColor": "cyan"
-        },
-        {
-            "type": "media",
-            "key": "│ └󰝚",
-            "keyColor": "cyan"
-        },
-        {
             "type": "custom",
             "format": "└{$1}{$1}┘",
             "outputColor": "90"
@@ -144,3 +134,4 @@
         "break",
         ]
 }
+
