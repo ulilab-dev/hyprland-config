@@ -1,6 +1,6 @@
 #!/bin/sh
 
-chmod +x ~/hyprland-config/config/waybar/start.sh &&
+chmod +x ~/hyprland-config/config/waybar/toggle_waybar.sh &&
 chmod +x ~/hyprland-config/config/hypr/wallpaper-pick.sh &&
 
 cp -r fastfetch/ fish/ hypr/ kitty/ rofi/ waybar/ wlogout/ ~/.config && 
