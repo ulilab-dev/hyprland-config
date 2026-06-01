@@ -22,8 +22,8 @@
    ],
    
     "modules-right": [
-        "custom/separator",
         "group/volume",
+        "custom/separator",
         "network",
         "power-profiles-daemon",
         "custom/separator",
