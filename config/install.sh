@@ -1,7 +1,7 @@
 #!/bin/sh
 
-chmod +x ~/hyprland-config/config/waybar/toggle_waybar.sh &&
-chmod +x ~/hyprland-config/config/hypr/wallpaper-pick.sh &&
+chmod +x waybar/toggle_waybar.sh &&
+chmod +x hypr/wallpaper-pick.sh &&
 
 cp -r fastfetch/ fish/ hypr/ kitty/ rofi/ waybar/ wlogout/ ~/.config && 
 cp -r Bibata-Modern-Ice/ ~/.local/share/icons &
