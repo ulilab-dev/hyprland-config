@@ -8,7 +8,6 @@
 -- Or execute your favorite apps at launch like this:
 
  hl.on("hyprland.start", function ()
-     hl.exec_cmd("gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'")
      hl.exec_cmd("nm-applet")
      hl.exec_cmd("waybar")
      hl.exec_cmd("swaybg -m fill -i ~/.config/hypr/wallpapers/p2.png")
