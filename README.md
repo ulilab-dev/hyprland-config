@@ -1,5 +1,4 @@
-# my-hyprland-conf
-hyprland.conf
+# hyprland-config
 
 ### must install
 ```
