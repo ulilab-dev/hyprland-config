@@ -22,5 +22,3 @@ JetBrainsMono Nerd Font
 ILoveCandy
 ```
 
-## cursor
-`download Bibata-Modern-Ice`
