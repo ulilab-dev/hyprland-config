@@ -24,6 +24,7 @@ add this line
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 ```
+if u not using kitty, change that to whatever terminal u use
 
 ### Font 
 
