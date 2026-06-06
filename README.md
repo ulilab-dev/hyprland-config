@@ -8,6 +8,12 @@ rofi swaybg hyprlock waybar wlogout fish kitty polkit-gnome starship hyprshot du
 
 celluloid
 ```
+### fix dolphin defaults apps
+```
+sudo pacman -S kde-cli-tools
+sudo pacman -S archlinux-xdg-menu
+```
+
 ### Font 
 
 ```
