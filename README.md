@@ -15,7 +15,7 @@ sudo pacman -S kde-cli-tools
 sudo pacman -S archlinux-xdg-menu
 ```
 #### set kitty for defaults terminal on dolphin
-edit `etc/xdg/kdeglobals`
+edit `/etc/xdg/kdeglobals\n`
 add this line
 ```
 [General]
