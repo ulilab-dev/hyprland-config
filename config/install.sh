@@ -1,10 +1,11 @@
 #!/bin/sh
 
-cp -r dunst/ fastfetch/ fish/ hypr/ kitty/ rofi/ waybar/ wlogout/ ~/.config && \
-cp -r Simp1e/ ~/.local/share/icons 
+cp -r dunst/ fastfetch/ fish/ hypr/ kitty/ rofi/ waybar/ wlogout/ ~/.config &&
+  cp -r wallpapers/ ~/.local/share/ &&
+  cp -r Simp1e/ ~/.local/share/icons
 
 if [ $? -eq 0 ]; then
-    echo "Done []"
+  echo "Done []"
 else
-    echo "Meh! []"
+  echo "Meh! []"
 fi

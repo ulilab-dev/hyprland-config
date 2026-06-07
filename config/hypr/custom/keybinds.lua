@@ -20,7 +20,8 @@ local superMod = "SUPER+SHIFT"
 hl.bind("CTRL+ALT+T", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
-hl.bind(mainMod .. " + M",hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
+hl.bind(mainMod .. " + M",
+  hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(superMod .. " + F", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(menu))
@@ -29,9 +30,9 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 hl.bind("SUPER+L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m region -o ~/Pictures/screenshot"))
 hl.bind("SUPER+V", hl.dsp.exec_cmd("~/.config/rofi/clipboard.sh"))
-hl.bind("SUPER+period", hl.dsp.exec_cmd(emoji)) 
+hl.bind("SUPER+period", hl.dsp.exec_cmd(emoji))
 hl.bind(superMod .. " + W", hl.dsp.exec_cmd("~/.config/waybar/toggle_waybar.sh"))
-hl.bind("SUPER+W", hl.dsp.exec_cmd("~/.config/hypr/wallpaper-pick.sh"))
+hl.bind("SUPER+W", hl.dsp.exec_cmd("waypaper"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
@@ -48,7 +49,7 @@ hl.bind("SUPER+SHIFT+down", hl.dsp.window.move({ direction = "down" }))
 -- Switch workspaces with mainMod + [0-9]
 -- Move active window to a workspace with mainMod + SHIFT + [0-9]
 for i = 1, 10 do
-  local key = i % 10   -- 10 maps to key 0
+  local key = i % 10 -- 10 maps to key 0
   hl.bind(mainMod .. " + " .. key, hl.dsp.focus({ workspace = i }))
   hl.bind(mainMod .. " + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
 end
