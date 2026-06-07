@@ -25,7 +25,7 @@ button {
 button:focus,
 button:hover {
 	color: #ffffff;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.7);
 	border-color: #ffffff;
 	background-size: 30%; 
 	box-shadow: 0 0 20px rgba(137, 180, 250, 0.6);
