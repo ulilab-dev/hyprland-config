@@ -6,6 +6,7 @@
 local terminal    = "kitty"
 local fileManager = "dolphin"
 local menu        = "rofi -show drun"
+local emoji       = "rofi -show emoji"
 
 
 ---------------------
@@ -29,6 +30,7 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 hl.bind("SUPER+L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m region -o ~/Pictures/screenshot"))
 hl.bind("SUPER+V", hl.dsp.exec_cmd("~/.config/rofi/clipboard.sh"))
+hl.bind("SUPER+peroid", hl.dsp.exec_cmd(emoji)) 
 hl.bind(superMod .. " + W", hl.dsp.exec_cmd("~/.config/waybar/toggle_waybar.sh"))
 hl.bind("SUPER+W", hl.dsp.exec_cmd("~/.config/hypr/wallpaper-pick.sh"))
 
