@@ -31,7 +31,7 @@ window {
   border: 2px;
   border-color: #FFFFFF;
   background-color: @background;
-  width: 50%;  
+  width: 45%;  
 }
 
 element {
