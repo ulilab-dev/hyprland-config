@@ -25,8 +25,8 @@ button {
 button:focus,
 button:hover {
 	color: #ffffff;
-	background-color: #89b4fa;
-	border-color: #89b4fa;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-color: #ffffff;
 	background-size: 30%; 
 	box-shadow: 0 0 20px rgba(137, 180, 250, 0.6);
 	outline: none;
