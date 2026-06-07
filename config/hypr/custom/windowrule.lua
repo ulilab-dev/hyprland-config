@@ -51,4 +51,4 @@ hl.window_rule({
 hl.window_rule({ match = { class = "org.pulseaudio.pavucontrol" }, float = true, size = "900 600", })
 hl.window_rule({ match = { class = "localsend" }, float = true, size = "900 600", })
 hl.window_rule({ match = { class = "org.gnome.baobab" }, float = true, size = "900 600", })
--- hl.window_rule({ match = { class = "steam" }, float = true, size = "1400 800", })
+hl.window_rule({ match = { class = "waypaper" }, float = true, size = "900 600", })
