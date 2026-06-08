@@ -9,3 +9,12 @@ hl.monitor({
     position = "0x0",
     scale    = "1",
 })
+
+
+--for w = 1, 9 do
+--    hl.workspace_rule({
+--        workspace = tostring(w),
+--        monitor = "HDMI-A-1",
+--        persistent = true
+--    })
+--end
