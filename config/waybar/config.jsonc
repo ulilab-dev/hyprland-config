@@ -18,7 +18,7 @@
     ],
     
     "modules-center": [
-
+      
    ],
    
     "modules-right": [
@@ -26,7 +26,6 @@
         "custom/separator",
         "network",
         "power-profiles-daemon",
-        "custom/separator",
         "tray",
         "battery",
         "custom/separator",
@@ -144,7 +143,7 @@
         "format-ethernet": "󰈀  Wired",
         "format-disconnected": "󰖪  Disconnected",
         "tooltip-format": "{ifname} via {gwaddr}",
-        "on-click": "nm-connection-editor"
+        "on-click": "networkmanager_dmenu"
     },
 
     "battery": {
