@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cp -r dunst/ fastfetch/ fish/ hypr/ kitty/ rofi/ waybar/ wlogout/ ~/.config && \
+cp -r dunst/ fastfetch/ fish/ hypr/ kitty/ networkmanager-dmenu/ rofi/ waybar/ wlogout/ ~/.config && \
 cp -r wallpapers/ ~/.local/share/ && \
 cp -r Simp1e/ ~/.local/share/icons
 
