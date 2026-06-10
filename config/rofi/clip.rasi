@@ -1,1 +1,129 @@
+configuration {
+modi:                  "drun,filebrowser,window,run";
+font:                  "JetBrainsMono Nerd Font Medium 12";
+show-icons:            true;
+display-drun:          " ";
+display-emoji:         " ";
+display-run:           " ";
+display-filebrowser:   " ";
+display-window:        "Window:";
+drun-display-format:   "{icon} {name}";
+hover-select:          false;
+scroll-method:         1;
+me-select-entry:       "";
+me-accept-entry:       "MousePrimary";
+}
 
+/* ---- Load colors ---- */
+@theme "~/.config/rofi/colors.rasi"
+
+*{
+background-color: @background;
+
+border: 0;
+margin: 0;
+padding: 0;
+spacing: 0;
+}
+
+window {
+  cursor: "default";
+  border: 2px;
+  border-color: #FFFFFF;
+  background-color: @background;
+  width: 45%;
+}
+
+element {
+    enabled: true;
+    spacing: 0px;
+    padding: 0.5em;
+    background-color: transparent;
+    text-color: @on-surface;
+}
+
+element selected.normal {
+  background-color: #0a0a0a;
+  text-color: @on-surface;
+}
+
+element normal.urgent {
+    background-color:            inherit;
+    text-color:                  @on-surface;
+}
+
+element normal.active {
+    background-color:            inherit;
+    text-color:                  @on-surface;
+}
+
+element selected.urgent {
+    background-color:            inherit;
+    text-color:                  @on-surface;
+}
+
+element selected.active {
+    background-color:            inherit;
+    text-color:                  @on-surface;
+}
+
+element alternate.normal {
+    background-color:            inherit;
+    text-color:                  @on-surface;
+}
+
+element alternate.urgent {
+    background-color:            inherit;
+    text-color:                  @on-surface;
+}
+
+element alternate.active {
+    background-color:            inherit;
+    text-color:                  @on-surface;
+}
+
+element-text {
+  cursor: inherit;
+  background-color: transparent;
+  text-color: inherit;
+  vertical-algin: 0.5;
+}
+
+element-icon {
+  background-color: transparent;
+  cursor: inherit;
+  text-color: inherit;
+  size: 0;
+}
+
+entry {
+  enabled:                     true;
+  padding:                     12px;
+  text-color:                  @on-surface;
+  cursor:                      text;
+  placeholder:                 "Search...";
+  background-color:            transparent;
+  placeholder-color:           inherit;
+}
+
+inputbar {
+  children: [prompt, entry];
+}
+
+listview {
+ /* background-color: @bg;*/
+  columns: 1;
+  lines: 9;
+}
+
+mainbox {
+/*  background-color: @bg; */
+  children: [inputbar, listview];
+}
+
+prompt {
+/*  background-color: @bg-alt; */
+  enabled: true;
+  padding: 12 0 0 12;
+  text-color: @on-surface;
+}
