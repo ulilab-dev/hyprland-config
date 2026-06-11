@@ -2,16 +2,16 @@
 @define-color dark-7 rgba(63, 63, 70, 1);
 
 * {
-border: none;
-border-radius: 0;
-font-family: "JetBrainsMono Nerd Font";
-font-size: 13px;
-font-weight: bold;
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    font-weight: bold;
 }
 
 window#waybar {
-  /*  background: transparent; */
-    background-color: #000000; 
+    /*  background: transparent; */
+    background-color: #000000;
 }
 
 #workspaces,
@@ -24,33 +24,37 @@ window#waybar {
 #power-profiles-daemon,
 #battery,
 #custom-power {
-  /*  background: rgba(30, 30, 46, 0.85); */ 
-    color: #cdd6f4; 
-    border-radius: 4px; 
-    padding: 0 5px;
-    margin: 3px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+/*  background: rgba(30, 30, 46, 0.85); */
+color: #cdd6f4;
+border-radius: 4px;
+padding: 0 5px;
+margin: 3px;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+#custom-logo {
+margin-left: 10px;
 }
 
 #custom-separator {
-    color: rgba(255, 255, 255, 0.3);
+color: rgba(255, 255, 255, 0.3);
 }
 
 #workspaces button {
-    color: #9e9b99;
-    padding: 0 3px;
-    border-radius: 8px;
-    transition: all 0.2s ease;
+color: #9e9b99;
+padding: 0 3px;
+border-radius: 8px;
+transition: all 0.2s ease;
 }
 
 #workspaces button.active {
-    color: #ffffff; 
+color: #ffffff;
 }
 
 #workspaces button:hover {
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: inherit;
-    text-shadow: inherit;
+background: rgba(255, 255, 255, 0.1);
+box-shadow: inherit;
+text-shadow: inherit;
 }
 
 #pulseaudio-slider {
@@ -83,67 +87,67 @@ background: #ffffff;
 }
 
 #mpris {
-    color: #ffffff;
-    padding: 0 10px;
+color: #ffffff;
+padding: 0 10px;
 }
 #mpris.paused {
-    color: #a0a0a0;
+color: #a0a0a0;
 }
 
 #window {
-    color: #f9e2af;
+color: #f9e2af;
 }
 
 #clock {
-    color: #ffffff;
+color: #ffffff;
 }
 
 #power-profiles-daemon {
-    padding-left: 6px;
-    padding-right: 8px;
+padding-left: 6px;
+padding-right: 8px;
 }
 
 #power-profiles-daemon.performance {
-    color: #ffffff;
+color: #ffffff;
 }
 
 #power-profiles-daemon.balanced {
-    color: #ffffff;
+color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
-    color: #ffffff;
+color: #ffffff;
 }
 
 #network {
-    color: #ffffff;
+color: #ffffff;
 }
 
 #pulseaudio {
-    color: #ffffff;
+color: #ffffff;
 }
 
 #battery {
-    color: #94e2d5;
+color: #94e2d5;
 }
 
 #battery.warning {
-    color: #f9e2af;
+color: #f9e2af;
 }
 
 #battery.critical {
-    color: #f38ba8;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+color: #f38ba8;
+animation-name: blink;
+animation-duration: 0.5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
 }
 
 #custom-power {
-    color: #ffffff;
-    padding-right: 10px;
-    padding-left: 5px;
+color: #ffffff;
+padding-right: 10px;
+padding-left: 5px;
 }
 
 @keyframes blink {

@@ -13,14 +13,15 @@
     "spacing": 0,
 
     "modules-left": [
+	"custom/logo",    
         "ext/workspaces",
         "mpris"
     ],
-    
+
     "modules-center": [
-      
+
    ],
-   
+
     "modules-right": [
         "group/volume",
         "custom/separator",
@@ -33,6 +34,13 @@
         "custom/separator",
         "custom/power"
     ],
+
+    "custom/logo": {
+    "format": "{icon}",
+    "format-icons":" ",
+    "on-click": "rofi -show drun",
+    "tooltip": false
+    },
 
     "ext/workspaces": {
         "disable-scroll": true,
@@ -60,7 +68,7 @@
        "format": "{player_icon} {dynamic}",
        "format-paused": "{status_icon} {dynamic}",
        "title-len": 15,
-       "artist-len": 10, 
+       "artist-len": 10,
        "album-len": 10,
        "player-icons": {
            "default": "▶",
@@ -85,7 +93,7 @@
     },
         "scroll-step": 1,
         "ignored-sinks": ["Easy Effects Sink"],
-        "on-click": "pavucontrol",
+        "on-click": "pavucontrol"
     },
 
     "pulseaudio/slider": {
