@@ -1,131 +1,28 @@
-configuration {
-modi:                  "drun,filebrowser,window,run";
-font:                  "JetBrainsMono Nerd Font Medium 12";
-show-icons:            true;
-display-drun:          " ";
-display-emoji:         " ";
-display-run:           " ";
-display-filebrowser:   " ";
-display-window:        "Window:";
-drun-display-format:   "{icon} {name}";
-hover-select:          false;
-scroll-method:         1;
-me-select-entry:       "";
-me-accept-entry:       "MousePrimary";
+configuration{
+    modi: ["drun", "window", "run"];
+    show-icons: true;
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    sidebar-mode: false;
+    display-drun: " ";
+    display-run: " ";
+    display-window: " ";
+    
+    //adding vim keybindings
+    kb-row-up: "Up,Control+k";
+    kb-row-left: "Left,Control+h";
+    kb-row-right: "Right,Control+l";
+    kb-row-down: "Down,Control+j";
+
+    kb-accept-entry: "Control+z,Control+y,Return,KP_Enter";
+
+    //fixing up
+    kb-remove-to-eol: "";
+    kb-move-char-back: "Control+b";
+    kb-remove-char-back: "BackSpace";
+    kb-move-char-forward: "Control+f";
+    kb-mode-complete: "Control+o";
 }
-
-/* ---- Load colors ---- */
-@theme "~/.config/rofi/colors.rasi"
-
-*{
-background-color: @background;
-
-border: 0;
-margin: 0;
-padding: 0;
-spacing: 0;
-}
-
-window {
-  cursor: "default";
-  border: 2px;
-  border-color: #FFFFFF;
-  background-color: @background;
-  width: 45%;  
-}
-
-element {
-    enabled: true;
-    spacing: 10px;
-    padding: 0.5em;
-    background-color: transparent;
-    text-color: @on-surface;
-}
-
-element selected.normal {
-  background-color: #0a0a0a;
-  text-color: @on-surface;
-}
-
-element normal.urgent {
-    background-color:            inherit;
-    text-color:                  @on-surface;
-}
-
-element normal.active {
-    background-color:            inherit;
-    text-color:                  @on-surface;
-}
-
-element selected.urgent {
-    background-color:            inherit;
-    text-color:                  @on-surface;
-}
-
-element selected.active {
-    background-color:            inherit;
-    text-color:                  @on-surface;
-}
-
-element alternate.normal {
-    background-color:            inherit;
-    text-color:                  @on-surface;
-}
-
-element alternate.urgent {
-    background-color:            inherit;
-    text-color:                  @on-surface;
-}
-
-element alternate.active {
-    background-color:            inherit;
-    text-color:                  @on-surface;
-}
-
-element-text {
-  cursor: inherit;
-  background-color: transparent;
-  text-color: inherit;
-  vertical-algin: 0.5;
-}
-
-element-icon {
-  background-color: transparent;
-  cursor: inherit;
-  text-color: inherit;
-  size: 30;
-}
-
-entry {
-  enabled:                     true;
-  padding:                     12px; 
-  text-color:                  @on-surface;
-  cursor:                      text;
-  placeholder:                 "Search...";
-  background-color:            transparent;
-  placeholder-color:           inherit;
-}
-
-inputbar {
-  children: [prompt, entry];
-}
-
-listview {
- /* background-color: @bg;*/
-  columns: 1;
-  lines: 8;
-}
-
-mainbox {
-/*  background-color: @bg; */
-  children: [inputbar, listview];
-}
-
-prompt {
-/*  background-color: @bg-alt; */
-  enabled: true;
-  padding: 12 0 0 12;
-  text-color: @on-surface;
-}
-
-
+@theme "dark.rasi"

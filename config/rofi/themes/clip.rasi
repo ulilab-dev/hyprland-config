@@ -101,7 +101,6 @@ entry {
   padding:                     12px;
   text-color:                  @on-surface;
   cursor:                      text;
-  placeholder:                 "Search...";
   background-color:            transparent;
   placeholder-color:           inherit;
 }
