@@ -6,7 +6,7 @@
 local terminal    = "kitty"
 local fileManager = "dolphin"
 local menu        = "rofi -show drun"
-local emoji       = "rofi -show emoji -config ~/.config/rofi/clip.rasi"
+local emoji       = "rofi -show emoji -config ~/.config/rofi/themes/clip.rasi"
 
 
 ---------------------
