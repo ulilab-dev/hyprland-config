@@ -1,35 +1,16 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "padding": {
-            "top": 2
-        }
+      "type": "kitty",
+      "width": 48
     },
     "display": {
-        "separator": " -> ",
-        "constants": [
-            "──────────────────────────────"
-        ]
+        "separator": " "
     },
     "modules": [
         {
-            "type": "custom",
-            "format": "┌{$1}{$1}┐",
-            "outputColor": "90"
-        },
-        {
             "type": "title",
             "keyWidth": 10
-        },
-        {
-            "type": "custom",
-            "format": "└{$1}{$1}┘",
-            "outputColor": "90"
-        },
-        {
-            "type": "custom",
-            "format": "┌{$1}{$1}┐",
-            "outputColor": "90"
         },
         {
             "type": "os",
@@ -38,100 +19,122 @@
         },
         {
             "type": "kernel",
-            "key": "│ ├",
+            "key": "├ Kernel",
             "keyColor": "yellow"
         },
         {
             "type": "packages",
-            "key": "│ ├󰏖",
+            "key": "├󰏖 Packages",
             "keyColor": "yellow"
         },
         {
             "type": "shell",
-            "key": "│ └",
+            "key": "├ Shell",
             "keyColor": "yellow"
         },
         {
+            "type": "localIP",
+            "key": "├󰩟 Local IP",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "uptime",
+            "key": "└󰅐 Start Time",
+            "keyColor": "yellow"
+        },
+            "break",
+        {
+            "type": "de",
+            "key": " DE",
+            "keyColor": "blue"
+        },
+        {
             "type": "wm",
-            "key": " DE/WM",
+            "key": "├󰧨 Window Manager",
             "keyColor": "blue"
         },
         {
             "type": "lm",
-            "key": "│ ├󰧨",
+            "key": "├󰧨 Login Manager",
             "keyColor": "blue"
         },
         {
             "type": "wmtheme",
-            "key": "│ ├󰉼",
+            "key": "├󰉼 WM Theme",
+            "keyColor": "blue"
+        },
+        {
+            "type": "theme",
+            "key": "├󰉼 Color Themes",
             "keyColor": "blue"
         },
         {
             "type": "icons",
-            "key": "│ ├󰀻",
+            "key": "├󰸉 System Icons",
+            "keyColor": "blue"
+        },
+        {
+            "type": "font",
+            "key": "├ System Fonts",
             "keyColor": "blue"
         },
         {
             "type": "terminal",
-            "key": "│ ├",
+            "key": "└ Terminal",
             "keyColor": "blue"
         },
+            "break",
         {
-            "type": "wallpaper",
-            "key": "│ └󰸉",
-            "keyColor": "blue"
-        },
-        {
-            "type": "host",
+            "type": "chassis",
             "key": "󰌢 PC",
             "keyColor": "green"
         },
         {
-            "type": "cpu",
-            "key": "│ ├󰻠",
+            "type": "board",
+            "key": "├ Board",
             "keyColor": "green"
         },
         {
+          "type": "cpu",
+            "key": "├󰻠 CPU",
+            "keyColor": "green",
+            "temp": true,
+            "freqNdigits": 1
+        },
+        {
             "type": "gpu",
-            "key": "│ ├󰍛",
+            "key": "├󰍛 GPU",
             "keyColor": "green"
         },
         {
             "type": "display",
-            "key": "│ └󰍹",
+            "key": "├󰍹 Display",
             "keyColor": "green"
         },
         {
             "type": "memory",
-            "key": "│ ├󰑭",
+            "key": "├󰑭 RAM",
             "keyColor": "green"
         },
         {
             "type": "swap",
-            "key": "│ ├󰓡",
+            "key": "├󰓡 Zram",
             "keyColor": "green"
         },
         {
             "type": "disk",
-            "key": "│ ├",
+            "key": "├ Disk",
+            "keyColor": "green"
+        },
+         {
+            "type": "opengl",
+            "key": "├󰍛 OpenGL",
             "keyColor": "green"
         },
         {
-            "type": "uptime",
-            "key": "│ ├󰅐",
+            "type": "vulkan",
+            "key": "└󰍛 Vulkan",
             "keyColor": "green"
         },
-        {
-          "type": "command",
-	  "key": " OS Age",
-          "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
-        },
-        {
-            "type": "custom",
-            "format": "└{$1}{$1}┘",
-            "outputColor": "90"
-        },
-        "break",
-        ]
+    ]
 }
-
