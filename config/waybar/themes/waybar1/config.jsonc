@@ -1,0 +1,174 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 0,
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "margin-bottom": 0,
+    "spacing": 0,
+
+    "modules-left": [
+	"custom/logo",    
+        "ext/workspaces",
+        "mpris"
+    ],
+
+    "modules-center": [
+
+   ],
+
+    "modules-right": [
+        "group/volume",
+        "custom/separator",
+        "network",
+        "power-profiles-daemon",
+        "tray",
+        "battery",
+        "custom/separator",
+        "clock",
+        "custom/separator",
+        "custom/power"
+    ],
+
+    "custom/logo": {
+    "format": "{icon}",
+    "format-icons":" ",
+    "on-click": "rofi -show drun",
+    "tooltip": false
+    },
+
+    "ext/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "on-click": "activate",
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "urgent": "",
+//            "active": "",
+//            "default": ""
+        }
+    },
+
+    "custom/separator": {
+        "format": "|",
+        "tooltip": false
+    },
+
+   "mpris": {
+       "format": "{player_icon} {dynamic}",
+       "format-paused": "{status_icon} {dynamic}",
+       "title-len": 15,
+       "artist-len": 10,
+       "album-len": 10,
+       "player-icons": {
+           "default": "▶",
+           "mpv": "🎵"
+       },
+       "status-icons": {
+           "paused": "⏸"
+       }
+   },
+
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-muted": "  Muted",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+    },
+        "scroll-step": 1,
+        "ignored-sinks": ["Easy Effects Sink"],
+        "on-click": "pavucontrol"
+    },
+
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal"
+    },
+
+    "group/volume": {
+      "orientation": "horizontal",
+      "modules": [
+        "pulseaudio",
+        "pulseaudio/slider"
+      ]
+    },
+
+    "clock": {
+        "format": "  {:%H:%M}",
+        "format-alt": "  {:%A, %B %d, %Y}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+     //   "timezone": "Asia/Jakarta",
+        "calendar": {
+            "mode"          : "year",
+            "mode-mon-col"  : 3,
+            "weeks-pos"     : "right",
+            "on-scroll"     : 1,
+            "format": {
+                "months":     "<span color='#ffffff'><b>{}</b></span>",
+                "days":       "<span color='#ffffff'><b>{}</b></span>",
+                "weeks":      "<span color='#ffffff'><b>W{}</b></span>",
+                "weekdays":   "<span color='#ffffff'><b>{}</b></span>",
+                "today":      "<span color='#75f1fa'><b><u>{}</u></b></span>"
+            }
+        }
+    },
+
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "performance": "",
+        "balanced": "󰗑",
+        "power-saver": ""
+      }
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 10
+    },
+
+    "network": {
+        "format-wifi": "  {essid}",
+        "format-ethernet": "󰈀  Wired",
+        "format-disconnected": "󰖪  Disconnected",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "on-click": "networkmanager_dmenu"
+    },
+
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": "  {capacity}%",
+        "format-plugged": "  {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+    "custom/power": {
+        "format": "",
+        "on-click": "wlogout",
+        "tooltip": false
+    }
+}
