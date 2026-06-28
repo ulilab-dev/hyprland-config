@@ -24,13 +24,14 @@ configuration{
     kb-move-char-forward: "Control+f";
     kb-mode-complete: "Control+o";
 }
+
 /*
  * Dark Theme colorscheme for rofi
  */
 
 // define colors etc.
 * {
-    bg: rgba(20, 24, 30, 0.90);
+    bg: rgba(20, 24, 30, 1);
     hv: #aaadad;
     primary: #2d2d2d;
     ug: #1a1a1a;
@@ -129,7 +130,7 @@ element normal active {
 element-icon {
     background-color: inherit;
     text-color: inherit;
-    size: 0px;
+    size: 0em;
 }
 
 element normal urgent {
@@ -155,4 +156,3 @@ button selected normal {
     border: 2px 0px 2px 2px;
     border-color: @primary;
 }
-
