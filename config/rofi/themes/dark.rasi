@@ -5,12 +5,12 @@
 // define colors etc.
 * {
     bg: rgba(20, 24, 30, 0.90);
-    hv: #ffffff;
+    hv: #aaadad;
     primary: #2d2d2d;
     ug: #1a1a1a;
     on-surface: #e1e3e4;
     border: 0px;
-    kl: #ffffff;
+    kl: #aaadad;
     black: #000000;
 
     font: "JetBrainsMono Nerd Font Bold 11";
