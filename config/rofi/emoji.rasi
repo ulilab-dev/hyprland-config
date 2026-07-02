@@ -40,7 +40,7 @@ configuration{
     kl: #aaadad;
     black: #000000;
 
-    font: "JetBrainsMono Nerd Font Bold 11";
+    font: "JetBrainsMono Nerd Font Bold 12";
     background-color: @bg;
     transparent: rgba(0, 0, 0, 0);
 }
@@ -94,8 +94,8 @@ prompt {
 listview {
     layout: vertical;
     padding: 8px;
-    lines: 7;
-    columns: 2;
+    lines: 12;
+    columns: 4;
     border: 0px 3px 3px 3px;
     border-radius: 0px 0px 6px 6px;
     border-color: @primary;
